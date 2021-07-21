@@ -1,0 +1,19 @@
+{
+  "name": "wp-custom-block",
+  "version": "1.0.0",
+  "description": "Plugin para criação de um bloco customizado.",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "Carolina Ahn",
+  "license": "MIT",
+  "devDependencies": {
+    "@wordpress/scripts": "^10.0.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^4.3.2",
+    "@wordpress/blocks": "^6.20.2"
+  }
+}
