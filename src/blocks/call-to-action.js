@@ -81,13 +81,13 @@ registerBlockType("wp-custom-block/call-to-action", {
     return [
       <>
         <InspectorControls>
-          <PanelBody title={"General Settings"}>
+          <PanelBody title={"General Settings"} initialOpen={false}>
             <p>
               <strong>Background Color:</strong>
             </p>
             <ColorPalette value={wrapperBgColor} onChange={setWrapperBgColor} />
           </PanelBody>
-          <PanelBody title={"Color Settings"}>
+          <PanelBody title={"Color Settings"} initialOpen={false}>
             <p>
               <strong>Title Color:</strong>
             </p>
